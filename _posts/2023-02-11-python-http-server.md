@@ -1,5 +1,5 @@
 ---
-title: HTML server using python | Hosting files using pyhton server
+title: HTML server using python | Hosting files using python server
 author: jaykantrprj
 date: 2023-02-11 11:33:00 +0800
 categories: [Blogging, Demo]
