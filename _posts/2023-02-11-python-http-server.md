@@ -8,7 +8,6 @@ math: true
 mermaid: true
 ---
 
-## HTML server using python | Hosting files using python server
 
 > This tutorial will guide you to server your html content using python server.
 
