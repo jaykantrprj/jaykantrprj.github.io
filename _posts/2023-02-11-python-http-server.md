@@ -8,7 +8,7 @@ math: true
 mermaid: true
 ---
 
-## HTML server using python | Hosting files using pyhton server
+## HTML server using python | Hosting files using python server
 
 > This tutorial will guide you to server your html content using python server.
 
@@ -42,5 +42,5 @@ python -m http.server 8088
 ```
 - Open a web browser and go to http://localhost:8088 to view your blog. By default, the http.server module listens on port 8000, so your blog will be accessible at that URL.
 
-You can also customize the appearance of your blog by adding CSS and JavaScript files, and linking to them in your HTML files.
+Conclusion: You can also customize the appearance of your blog by adding CSS and JavaScript files, and linking to them in your HTML files.
 With these steps, you'll have a simple blog up and running using the Python http.server module. Keep in mind that this method is only suitable for personal or experimental blogs, as it is not a robust solution for large-scale or production use.
