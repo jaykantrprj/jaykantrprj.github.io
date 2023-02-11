@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   Jaykant's Personal portfolio and blogs
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://jaykantrprj.github.io/'
+url: 'https://jaykantrprj.github.io'
 
 github:
   username: jaykantrprj             # change to your github username
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://media.licdn.com/dms/image/D4D03AQFO9NSWZqMVXA/profile-displayphoto-shrink_800_800/0/1662297523006?e=1681344000&v=beta&t=JueVDg0Ltyos9cDN5LYdtl6DOHFd0q6-8hv54tf4u-o
+avatar: 
 
 # boolean type, the global switch for ToC in posts.
 toc: true
