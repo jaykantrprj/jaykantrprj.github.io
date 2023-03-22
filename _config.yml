@@ -19,9 +19,9 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Jaykant's Blog                          # the main title
+title: Jaykant Prajapati                          # the main title
 
-tagline: Incognitive   # it will display as the sub-title
+tagline: Senior Analyst at HCL Technologies || IIEST Shibpur' 21   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Jaykant's Personal portfolio and blogs
@@ -33,7 +33,7 @@ github:
   username: jaykantrprj             # change to your github username
 
 twitter:
-  username: jackiot            # change to your twitter username
+  username: geekjakiot            # change to your twitter username
 
 social:
   # Change to your full name.
