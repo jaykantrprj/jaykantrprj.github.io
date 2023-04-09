@@ -1,9 +1,9 @@
 ---
-title: HTML server using python | Hosting files using python server
+title: Introduction to Docker for absolute beginners
 author: jaykantrprj
 date: 2023-02-11 11:33:00 +0800
-categories: [python, server, web-development]
-tags: [python, server]
+categories: [docker, container, deployment]
+tags: [docker, container, deployment, open-source]
 math: true
 mermaid: true
 ---
