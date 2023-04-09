@@ -33,6 +33,23 @@ Docker has a client-server architecture, where the Docker client communicates wi
 - Docker registry: A repository for Docker images, such as Docker Hub
 
 ## Installing Docker
-To get started with Docker, you need to install it on your machine. Docker is available for Windows, Mac, and Linux. You can follow the offical installation page https://docs.docker.com/engine/install/.
+To get started with Docker, you need to install it on your machine. Docker is available for Windows, Mac, and Linux. You can follow the offical installation page to complete installation https://docs.docker.com/engine/install/.
 
 Once you've installed Docker, you can verify that it's working by running the hello-world image. This image is a simple example that prints a message to the console.
+
+## Docker Images and Containers
+Docker images are read-only templates that contain an application and its dependencies. Custom Docker images can be created by writing a Dockerfile, which contains the instructions for building the image.
+Docker containers are instances of Docker images that run as processes on the host machine. Containers can be started by specifying image from a registry (if it's not already available locally) and starts a new container.
+You can also use Docker to pull and push images to a registry, such as Docker Hub. This makes it easy to share your images with others and to use images that others have created.
+
+## Dockerizing your Application
+Dockerizing an application involves creating a Docker image that contains the application and its dependencies. This makes it easier to deploy the application to different environments and ensures that it runs consistently.
+
+Application can be dockerized by creating the Docker images having application and its dependencies. First, the Dockerfile neeed to be created to build the image by providing instruciton. Once you've created the Dockerfile, you can build the image using the docker build command. This creates a new Docker image that you can run as a container.
+
+## Docker Compose
+Docker Compose is a tool for defining and running multi-container Docker applications. It allows you to define the services that make up your application in a YAML file and then start them all with a single command.
+With Docker Compose, you can define the network connections between the containers, the volumes that should be shared between them, and any other configuration options.
+
+## Conclusion
+Docker is a powerful tool that simplifies the process of building, shipping, and running
