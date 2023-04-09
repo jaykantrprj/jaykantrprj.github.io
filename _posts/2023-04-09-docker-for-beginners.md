@@ -52,4 +52,4 @@ Docker Compose is a tool for defining and running multi-container Docker applica
 With Docker Compose, you can define the network connections between the containers, the volumes that should be shared between them, and any other configuration options.
 
 ## Conclusion
-Docker is a powerful tool that simplifies the process of building, shipping, and running
+Docker is a powerful tool that simplifies the process of building, shipping, and running.
