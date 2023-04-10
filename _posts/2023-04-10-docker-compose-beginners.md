@@ -10,6 +10,7 @@ mermaid: true
 
 
 > how to use Docker Compose to manage multi-container applications
+
 ## Introduction
 Docker Compose is used for defining and running multi-container Docker applications. The file specifies how multiple Docker containers should be run and managed. This file is named as "docker-compose.yml" file, which includes information about volumes, services, network required for the application.
 
@@ -48,3 +49,32 @@ services:
       - db
 ```
 This Docker Compose file defines two services: db and web. The db service uses the mysql:5.7 image and sets the MYSQL_ROOT_PASSWORD environment variable. The web service uses the nginx:latest image and maps the port 80 on the host to port 80 in the container. It also specifies that it depends on the db service.
+
+### Example 2: Defining a Multi-Container Application:
+Let's take a more complex example of a multi-container application. In this example, we will create a simple blog application consisting of a web server, a database server, and a Redis server for caching.
+```yaml
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+  redis:
+    image: redis:latest
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+```
+This Docker Compose file defines three services: db, redis, and web. The db and redis services use the MySQL and Redis images, respectively. The web service uses the local Dockerfile to build the application image and runs the command "python manage.py runserver 0.0.0.0:8000" to start the Django development server. It also maps the port 8000 on the host to port 8000 in the container and depends on the db and redis services.
+
+### Conclusion:
+
+Docker Compose is a powerful tool that allows developers to define and manage multi-container applications in a
