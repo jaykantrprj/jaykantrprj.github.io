@@ -1,6 +1,6 @@
 ---
 title: Beginner's Guide to Docker, What it is, How it Works, and Why You Need it
-author: Jaykant
+author: jaykantrprj
 date: 2023-04-09 11:33:00 +0800
 categories: [docker, container, deployment]
 tags: [docker, container, deployment, open-source]
