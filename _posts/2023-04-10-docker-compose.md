@@ -1,5 +1,5 @@
 ---
-title: Beginner's Guide to Docker, What it is, How it Works, and Why You Need it
+title: Beginner's Guide to Docker Compose
 author: Jaykant
 date: 2023-04-10 11:33:00 +0800
 categories: [docker, container, deployment]
@@ -27,3 +27,24 @@ A Docker Compose file is written in YAML format and is used to define the servic
 - Services: Defines the containers required for the application.
 - Networks: Defines the communication channels between the services.
 - Volumes: Defines the shared directories between the host system and the containers.
+
+Each component in the Docker Compose file has its own syntax, as shown in the following examples.
+
+### Example 1: Defining a Simple Web Application
+
+```yaml
+version: '3'
+
+services:
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+```
+This Docker Compose file defines two services: db and web. The db service uses the mysql:5.7 image and sets the MYSQL_ROOT_PASSWORD environment variable. The web service uses the nginx:latest image and maps the port 80 on the host to port 80 in the container. It also specifies that it depends on the db service.
