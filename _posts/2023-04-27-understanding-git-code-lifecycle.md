@@ -24,7 +24,7 @@ There are two approach to create an new project, both approaches are valid and c
 2. Open your terminal and navigate to the directory where you want to clone the project.
 3. Run the following command to clone the remote repository to your local machine:
 
-```cmd
+```shell
 git clone <remote_repo_url>
 ```
 4. Start working on your project locally.
@@ -32,19 +32,19 @@ git clone <remote_repo_url>
 ### Approach 2: Create local repo first and then sync it to remote
 1. Open your terminal and navigate to the directory where you want to create the project.
 2. Run the following command to create a new Git repository:
-```cmd
+```shell
 git init
 ```
 3. Start working on your project locally.
 4. When you're ready to sync your local repository with a remote one, you'll need to add a remote repository using the following command:
-```cmd
+```shell
 git remote add <remote_name> <remote_repo_url>
 ```
 where <remote_name> is a nickname for the remote repository and <remote_repo_url> is the URL of the remote repository.
 
 5. Finally, push your local changes to the remote repository using the following command:
 
-```cmd
+```shell
 git push <remote_name> <branch_name>
 ```
 where <remote_name> is the nickname you chose for the remote repository and <branch_name> is the name of the branch you want to push to the remote repository.
@@ -55,7 +55,7 @@ where <remote_name> is the nickname you chose for the remote repository and <bra
 
 The first step in the project lifecycle is creating a new Git repository. To do this, navigate to the directory where you want to create the repository and run the following command:
 
-```cmd
+```shell
 git init
 ```
 This will initialize a new Git repository in the current directory.
@@ -63,33 +63,33 @@ Any one of the above approach can be used to create new project.
 
 ### 2. Adding files to the project
 Once the repository is created, you can start adding files to it. To add a new file to the project, create the file in the repository directory and then run the following command:
-```cmd
+```shell
 git add filename
 ```
 This will add the file to the Git repository and stage it for commit.
 
 ### 3. Making changes and committing
 After adding files to the project, you can make changes to them and commit the changes to the repository. To make changes to a file, edit the file and save your changes. Then, run the following command to stage the changes:
-```cmd
+```shell
 git add filename
 ```
 To commit the changes, run the following command:
-```cmd
+```shell
 git commit -m "Commit message"
 ```
 This will commit the changes to the repository with the specified commit message.
 
 ### 4. Branching and merging
 One of the powerful features of Git is its ability to create branches and merge changes between them. Branching allows you to create a separate line of development for a particular feature or bug fix. To create a new branch, run the following command:
-```cmd
+```shell
 git branch branchname
 ```
 This will create a new branch with the specified name. To switch to the new branch, run the following command:
-```cmd
+```shell
 git checkout branchname
 ```
 Once you've made changes on the new branch, you can merge them back into the main branch using the following command:
-```cmd
+```shell
 git merge branchname
 ```
 This will merge the changes from the specified branch into the current branch.
@@ -99,11 +99,11 @@ As part of the project lifecycle in Git, it's important to review code changes a
 
 ### 5. Syncing with a remote repository
 To synchronize your local Git repository with a remote repository, you need to add the remote repository URL to your local repository configuration. To do this, run the following command:
-```cmd
+```shell
 git remote add origin remote_repository_url
 ```
 This will add a remote repository with the name "origin" and the specified URL. To push your local changes to the remote repository, run the following command:
-```cmd
+```shell
 git push -u origin branchname
 ```
 This will push your local changes to the specified branch in the remote repository.
