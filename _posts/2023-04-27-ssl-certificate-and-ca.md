@@ -1,5 +1,5 @@
 ---
-title: Understanding SSL certificate and Certificate Authority
+title: Understanding SSL Certificates and Certificate Authorities| A Comprehensive Guide"
 author: Jaykant
 date: 2023-04-18 11:33:00 +0800
 categories: [java, rest, resapi]

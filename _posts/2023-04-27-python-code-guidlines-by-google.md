@@ -1,5 +1,5 @@
 ---
-title: key Python code guidelines from Google's Python Style Guide
+title: Python Coding Best Practices| A Comprehensive Guide by Google
 author: Jaykant
 date: 2023-04-27 11:33:00 +0800
 categories: [java, rest, resapi]

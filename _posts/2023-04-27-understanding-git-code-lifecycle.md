@@ -1,5 +1,5 @@
 ---
-title: Understanding GIT, GITHUB and Project lifecyle 
+title: Mastering the Git Code Lifecycle| Understanding the Fundamentals 
 author: Jaykant
 date: 2023-04-27 11:33:00 +0800
 categories: [GIT, GitHub, Coding]
