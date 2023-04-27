@@ -21,10 +21,10 @@ timezone: Asia/Kolkata
 
 title: Jaykant Prajapati                          # the main title
 
-tagline: Master's in Information Technology | IIEST Shibpur' 21   # it will display as the sub-title
+tagline: Personal Views | Master's in Information Technology | IIEST Shibpur' 21   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Jaykant's Personal portfolio and blogs
+  Jaykant's Personal portfolio and blogs.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://jaykantrprj.github.io'
